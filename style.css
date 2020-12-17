@@ -7,7 +7,7 @@ body {
 }
 
 :root {
-    --primary-color: #00BFA6;
+    --primary-color: #F9A826;
     --secondary-color: #111827;
     --section-color:#D1FAE5;
 
@@ -15,11 +15,13 @@ body {
 }
 
 hr {
-    margin: 2rem 0rem;
+    margin: auto;
+    max-width: 600px;
+
 }
 
 .container {
-    padding: 0rem 1rem;
+    padding: 1rem 1rem;
 }
 
 .container-center {
@@ -65,19 +67,21 @@ hr {
 
 
 .navigation {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color:white;
     padding: 1rem; 
-    border-bottom-left-radius: 1rem;
 } 
 
 .navigation .nav-brand {
-
     font-weight: bold;
 }
 
+.navigation .nav-pills{
+    text-align: right;
+}
 .navigation .link {
-    color: var(--secondary-color);
+    color: var(--primary-color);
+    
 }
 
 .navigation .link-active {
@@ -88,13 +92,20 @@ hr {
 .hero {
     padding: 2rem;
     padding-top: 5rem;
+    background-color: var(--primary-color);
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+
+
 }
 
 .hero .hero-img {
     max-width: 80%;
-    width: 450px;
+    width: 350px;
     display:block;
-    margin:auto
+    margin:auto;
+   
+    
     
 }
 
@@ -104,21 +115,30 @@ hr {
 }
 
 .hero .hero-heading .heading-inverted {
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
+
+.section {
+    padding: 2rem;
+}
 .section h1{
     text-align: center;
 
 }
 
-.gray {
+.footer {
+    padding: 5rem 1rem;
     background-color: var(--primary-color);
+    text-align: center;
+    border-top-right-radius: 2rem ;
+    border-top-left-radius: 2rem ;
 }
 
 
 .footer .link {
-    color: var(--primary-color);
+    color: var(--secondary-color);
+    
 }
 
 .footer .footer-header {
