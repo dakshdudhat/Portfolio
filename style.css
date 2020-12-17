@@ -2,11 +2,15 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: var(--secondary-color);
+    color:white
 }
 
 :root {
     --primary-color: #00BFA6;
     --secondary-color: #111827;
+    --section-color:#D1FAE5;
+
 
 }
 
@@ -66,3 +70,67 @@ hr {
     padding: 1rem; 
     border-bottom-left-radius: 1rem;
 } 
+
+.navigation .nav-brand {
+
+    font-weight: bold;
+}
+
+.navigation .link {
+    color: var(--secondary-color);
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+
+.hero {
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.hero .hero-img {
+    max-width: 80%;
+    width: 450px;
+    display:block;
+    margin:auto
+    
+}
+
+.hero .hero-heading {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+.section h1{
+    text-align: center;
+
+}
+
+.gray {
+    background-color: var(--primary-color);
+}
+
+
+.footer .link {
+    color: var(--primary-color);
+}
+
+.footer .footer-header {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* .margin-md {
+    margin: 2rem
+} */
+
+.footer ul {
+    padding-inline-start: 0px;
+}
