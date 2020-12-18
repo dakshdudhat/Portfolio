@@ -7,7 +7,7 @@ body {
 }
 
 :root {
-    --primary-color: #F9A826;
+    --primary-color: #EF4444;
     --secondary-color: #111827;
     --section-color:#D1FAE5;
 
@@ -70,10 +70,12 @@ hr {
     background-color: var(--secondary-color);
     color:white;
     padding: 1rem; 
+    font-size: large;
 } 
 
 .navigation .nav-brand {
     font-weight: bold;
+    
 }
 
 .navigation .nav-pills{
@@ -123,7 +125,7 @@ hr {
 .hero .hero-heading {
     text-align: center;
     margin: auto;
-    vertical-align: auto;
+    padding-top: 1rem;
     
 }
 
